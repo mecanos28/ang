@@ -10,6 +10,8 @@ import { APP_ROUTES } from './app.routes';
 
 // Modulos
 import { PagesModule } from './pages/page.module';
+import { FormsModule } from '@angular/Forms';
+import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
 
@@ -22,7 +24,8 @@ import { PagesModule } from './pages/page.module';
   imports: [
     BrowserModule,
     PagesModule,
-    APP_ROUTES
+    APP_ROUTES,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
